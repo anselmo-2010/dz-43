@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color:mediumblue;
+    margin: 0;
+    padding-top: 50px;
+}
+.counter{
+    border: 1px solid green;
+    text-align: center;
+    width: 500px; 
+    padding: 20px;  
+}
+
+.counter-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+#text{
+    font-size: 8rem;
+}
+
